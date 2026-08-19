@@ -44,9 +44,10 @@ while (i <= 5) {
     printf("%d", i);
     i++;
 }
+```
 
 ## 6. Sample Output
-
+```
 TOKEN TYPE
 ------------------------------------------------
 int Keyword
@@ -73,7 +74,7 @@ i Identifier
 ; Separator
 } Separator
 ------------------------------------------------
-
+```
 ## 7. Token Classification
 
 | Token  | Type           |
@@ -94,6 +95,7 @@ i Identifier
 | }      | Separator      |
 
 ## 8. Test Cases
+
 Test Case 1
 
 Input:
@@ -121,8 +123,10 @@ i → Identifier
 <= → Operator
 5 → Constant
 ) → Separator
+
 ## 9. Conclusion
 
 The lexical analyzer successfully identifies and classifies
 different types of tokens from a source-code file and counts
 the occurrences of each token type.
+
